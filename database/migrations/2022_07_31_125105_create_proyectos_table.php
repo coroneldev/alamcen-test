@@ -15,10 +15,10 @@ class CreateProyectosTable extends Migration
     {
         Schema::create('proyectos', function (Blueprint $table) {
             $table->id();
-            $table->string('proyecto_nombre', 255);
-            $table->boolean('proyecto_estado');
-            $table->date('proyecto_duracion');
-            $table->decimal('proyecto_presupuesto', $precision = 8, $scale = 2);
+            $table->string('nombre', 255);
+            $table->boolean('estado');
+            $table->date('duracion');
+            $table->decimal('presupuesto', $precision = 8, $scale = 2);
             $table->timestamps();
 
             $table->foreignId('empresa_id')

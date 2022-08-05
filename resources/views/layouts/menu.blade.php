@@ -17,4 +17,7 @@
     <a class="nav-link" href="/articulos">
         <i class=" fas fa-chalkboard"></i><span>Articulos</span>
     </a>
+    <a class="nav-link" href="/proyectos">
+        <i class=" fas fa-clone"></i><span>Proyectos</span>
+    </a>
 </li>

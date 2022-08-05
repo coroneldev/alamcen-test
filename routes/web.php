@@ -2,14 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-//Agregar de Controles
-
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RolController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\EmpresaController;
 use App\Http\Controllers\AlmacenController;
 use App\Http\Controllers\ArticuloController;
+use App\Http\Controllers\ProyectoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,4 +38,5 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('empresas', EmpresaController::class);
     Route::resource('almacenes', AlmacenController::class);
     Route::resource('articulos', ArticuloController::class);
+    Route::resource('proyectos', ProyectoController::class);
 });

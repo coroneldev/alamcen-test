@@ -38,7 +38,13 @@ class SeederTablaPermisos extends Seeder
             'ver-articulo',
             'crear-articulo',
             'editar-articulo',
-            'borrar-articulo'
+            'borrar-articulo',
+
+            //Operacions sobre tabla proyectos
+            'ver-proyecto',
+            'crear-proyecto',
+            'editar-proyecto',
+            'borrar-proyecto'
 
         ];
 
